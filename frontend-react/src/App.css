@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Auth Card Styles */
+.auth-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+
+.auth-card .card-header {
+  border-bottom: none;
+  padding: 1.5rem;
+}
+
+/* Dashboard Styles */
+.stat-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Chart Container */
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+/* Custom Button Styles */
+.btn-primary {
+  background-color: #4e73df;
+  border-color: #4e73df;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9;
+  border-color: #2e59d9;
+}
+
+.btn-success {
+  background-color: #1cc88a;
+  border-color: #1cc88a;
+}
+
+.btn-success:hover {
+  background-color: #17a673;
+  border-color: #17a673;
+}
+
+.btn-danger {
+  background-color: #e74a3b;
+  border-color: #e74a3b;
+}
+
+.btn-danger:hover {
+  background-color: #d52a1a;
+  border-color: #d52a1a;
+}
+
+/* Table Styles */
+.table th {
+  font-weight: 600;
+  border-top: none;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+  border-radius: 0.5rem;
+}
+
+.card-header {
+  background-color: #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+  border: none;
+}
+
+/* Progress Bar Styles */
+.progress {
+  height: 0.8rem;
+  border-radius: 0.5rem;
+}
+
+/* Badge Styles */
+.badge {
+  font-weight: 600;
+  padding: 0.35em 0.65em;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e3e6f0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .stat-card {
+    margin-bottom: 1rem;
+  }
+}
